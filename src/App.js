@@ -1,11 +1,10 @@
 import './App.css';
+import Device from './Components/Device/Device';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-			<h2>Topic # 01 Related</h2>
-      </header>
+		<Device name="Uphone" price='13000'></Device>
     </div>
   );
 }
