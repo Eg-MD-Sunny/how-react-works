@@ -11,7 +11,7 @@ const Watch = () => {
         console.log(steps)    
     },[steps])
     return (
-        <div>
+        <div style={{border:"2px solid purple", margin:"20px"}}>
             <h2>This is my smart watch</h2>
             <h3>My Current Steps: {steps}</h3>
             <button onClick={stepCount}>De Dour............</button>
