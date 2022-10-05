@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Dispaly from '../Display/Dispaly';
 
 const Watch = () => {
     const [steps, setSteps] = useState(0)
@@ -14,6 +15,7 @@ const Watch = () => {
             <h2>This is my smart watch</h2>
             <h3>My Current Steps: {steps}</h3>
             <button onClick={stepCount}>De Dour............</button>
+            <Dispaly name="iPhone13"></Dispaly>
         </div>
     );
 };
