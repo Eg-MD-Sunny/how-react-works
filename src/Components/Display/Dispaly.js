@@ -10,5 +10,4 @@ const Dispaly = (props) => {
         </div>
     );
 };
-
 export default Dispaly;

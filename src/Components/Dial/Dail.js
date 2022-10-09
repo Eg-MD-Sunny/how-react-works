@@ -8,5 +8,4 @@ const Dail = (props) => {
         </div>
     );
 };
-
 export default Dail;

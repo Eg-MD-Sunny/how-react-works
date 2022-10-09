@@ -7,5 +7,4 @@ const DeviceDetails = (props) => {
         </div>
     );
 };
-
 export default DeviceDetails;
